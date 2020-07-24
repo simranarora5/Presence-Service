@@ -47,7 +47,7 @@ DATABASES:
              
              
 Constraints:
-=> Username must be Unique.
+=> Username must be Unique
 
 
                
