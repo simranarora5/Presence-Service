@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Presence Service</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    </head>
+    <body>
+        <header>
+            Presence Service
+        </header>
+        <div class="main">
+            <div>
+                <form action="authenticate.jsp" method="get">
+                    
+                    <i class="material-icons w3-xxxlarge">person</i>
+                    <table class="tab">
+                        <tr>
+                            <td>
+                               <label>Username:</label> 
+                            </td>
+                            <td>
+                                <input type="text" name="uname" autocomplete="off" placeholder="Enter Username" autofocus required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>Password:</label>
+                            </td>
+                            <td>
+                                <input type="password" name="pass" autocomplete="off" placeholder="Enter password" required>
+                            </td>
+                        </tr>
+                        <tr>
+                             <td colspan="2">
+                                 <input type="submit" id="btn" value="Login">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+          
+        </div>
+          <div class="new_user">
+                New User? <a href="registration.jsp">Click here</a>
+            </div>
+        
+        
+        
+    </body>
+</html>
